@@ -1,0 +1,39 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+.green{
+    background-color: #49dd5d;
+    transition: flex-grow 1s ease;
+}
+
+.green:hover, .red:hover, .blue:hover{
+    display: flex;
+    flex-grow: 1;
+}
+
+.red{
+    background-color: #a33d3d;
+    transition: flex-grow 1s ease;
+}
+
+.blue{
+    background-color: #4958dd;
+    transition: flex-grow 1s ease;
+}
+
+.yellow{
+    background-color: #d1cf46;
+}
+
+.perple{
+    background-color: #703fca;
+}
