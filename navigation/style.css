@@ -16,21 +16,53 @@ ul{
 
 a{
     text-decoration: none;
-    color: #ffffff;
-    transition: color 0.5s ease, border-bottom 1s ease, font-size 0.5s ease;
+    color: #494848;
+    transition: color 0.5s ease, border-bottom 1s ease;
 }
 
 a:hover{
-    color: #00ffff;
-    border-bottom: 1px solid #00ffff;
-    font-size: 25px;
+    color: #333232;
+    border-bottom: 1px solid #333232;
 }
 
-nav{
+.content{
     margin: 0 auto;
     width: 600px;
 }
 
-.content{
-    background-color: #8d8b8b;
+nav{
+    border-bottom: 1px solid rgba(27, 26, 26, 0.5);
+    margin: 0 10px 0 10px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.main-conteiner{
+    margin: 100px 100px 100px 300px
+}
+
+h1{
+    font-size: 60px;
+    color: #1b1a1a;
+}
+
+.main-text{
+    font-size: 25px;
+    color: #1b1a1a;
+    margin-top: 15px;
+}
+
+.vkus-img{
+    width: 300px;
+    height: 300px;
+    margin-right: 300px;
+}
+
+.btn{
+    
 }
